@@ -1,67 +1,72 @@
-* {
+*{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-body {
-  font-family: Times, serif;
-  color: white;
+body{
   background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 
-.container {
-  max-width: 90rem;
-  margin: 2rem auto;
-  padding: 0px 2rem;
+header{
+text-align: center;
+background-color: black;
+padding: 20px;
 }
 
-.header {
-  padding: 2rem;
-  margin: 1rem 0px;
-  text-align: center;
+header h1{
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
-header > .title {
-  margin-bottom: 1rem;
+header p{
+  font-size: 1rem; 
 }
 
-.tribute {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  max-width: 78rem;
-  margin: 0px auto;
-  background: white;
+.blockquote{
+  background-color: white;
   color: black;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 0px 0px 0px 1rem;
-}
-
-.tribute blockquote {
-  text-align: center;
-  font-size: 3rem;
-}
-
-.tribute img {
+  padding: 0px 25px;
+  padding-right: 0px;
   max-width: 100%;
+  height: 350px;
 }
 
-.bio {
-  margin: 2rem auto;
-  padding: 0px 0.5rem;
-  max-width: 40rem;
+section blockquote{
+  font-size: 1.6rem;
+  line-height: 35px
+  
 }
 
-.bio > h2 {
-  margin-bottom: 1rem;
-  font-size: 3rem;
-  line-height: 1.2;
-}
-.bio > p {
-  font-size: 1.2rem;
-  line-height: 1.4;
+section img{
+  width: 250px;
+  height: 260px;
 }
 
-.bio > hr {
-  margin-top: 2rem;
+.bio{
+  padding: 0px 25px;
+  text-align: start; 
 }
+
+.bio h3{
+  font-size: 2rem;
+  padding: 20px 0px;
+}
+
+.bio p{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+footer{
+  font-size: 16px;
+  text-align: center;
+  padding: 25px 0px;
+  border-top: 1px solid white;
+}
+
